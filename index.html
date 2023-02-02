@@ -5,9 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="./styles/main.css">
 
-<title>Portfolio - Random Hex Color Generator</title>
+<title>🌈 Magic Color XXL</title>
 </head>
 
 
@@ -18,16 +22,25 @@
         <h1 id="htmlH1">#FFFFFF</h1>
     </header>
 
+    <nav>
+        <button onclick="getRandomSet()">[ Refresh ]</button>        
+    </nav>
+
     <main>
-        <nav>
-            <button onclick="rendderRandomColor()">Refresh</button>
-        </nav>
+        <p><a href="https://open.spotify.com/playlist/4RuO5yX4bziAqTYEc3EM4w?si=6ffa673a347848ad" target="_blank">Spotify</a></p>
     </main>
+
+    <footer>
+        <p><small><a href="https://github.com/jsohndata/Portfolio-Random-Hex-Color-Generator" target="_blank">See code on GitHub</a></small></p>
+    </footer>
 </div>
 
 <footer></footer>
 
 <script src="./scripts/main.js"></script>
+<script>
+    getRandomSet();
+</script>
 
 </body>
 </html>

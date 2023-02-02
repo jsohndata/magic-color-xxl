@@ -1,45 +1,84 @@
 /* Normalize */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
+html { scroll-behavior: smooth; }
 
-/* Font */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+h1 { font-family: 'Staatliches', cursive; }
+p { font-family: 'Lato', sans-serif; }
 
-h1, button { font-family: 'Pacifico', cursive; }
+header, nav, main, footer { text-align: center;}
+
 
 body {
     background-color: #f4f5f6;
+    background-image: url(../images/bg1.webp);
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;    
-}
-
-#displayBox, button {
-    border: 10px solid #e3e3e347;
+    justify-content: center;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.97,.15,.82,.75);
+    transition-delay: 0.2s;
 }
 
 #displayBox {
-    width: 40%;
-    background-color: #f4f5f6a9;
+    width: 60vw;
+    background-color: rgba(244, 245, 246, 0.76);
     padding: 40px;
     border-radius: 14px;
+    position: relative;
+    top: -20vh;
+    filter: drop-shadow(0 0 2rem #140101f8);
+    border: 5px solid rgba(255, 255, 255, 0.301)
 }
 
 header > h1 {
-    font-size: 4rem;
-    text-align: center;
-    filter: drop-shadow(0 0 1.1rem #450505aa);
+    font-size: clamp(4rem, 6vh, 8rem);
 }
 
+main { margin-top: 2vh; }
+
+
 button {
-    font-size: 2.0rem;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 14px;
-    width: 80%;
-    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 0;    
+    padding: 0;
 }
+
+button, 
+main > p {
+    cursor: pointer;
+    transform: scale(1.0);
+    transition: transform 0.31s ease-in-out;
+}
+
+main > p a { 
+    color: #454545;
+    text-decoration: none;
+}
+
+button:hover,
+main > p:hover { 
+    transform: scale(1.15);
+}
+
+footer {
+    position: relative;
+    top: 3.1vh;
+}
+
+footer > p a:link,
+footer > p a:visited { 
+    color: rgba(179, 168, 168, 0.883);
+    transition: 1.2s; 
+}
+
+footer > p a:hover { 
+    color: rgba(24, 244, 244, 0.883);
+    filter: drop-shadow(0 0 7px #043843f8);
+ }
 
 
 
