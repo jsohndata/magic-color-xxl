@@ -23,11 +23,11 @@
     </header>
 
     <nav>
-        <button onclick="getRandomSet()">[ Refresh ]</button>        
+        <button onclick="getRandomSet();">Refresh</button>        
     </nav>
 
     <main>
-        <p><a href="https://open.spotify.com/playlist/4RuO5yX4bziAqTYEc3EM4w?si=6ffa673a347848ad" target="_blank">Spotify</a></p>
+        <p><a href="https://open.spotify.com/playlist/4RuO5yX4bziAqTYEc3EM4w?si=6ffa673a347848ad" target="_blank">Listen and Enjoy <img src="./images/spotify.svg" class="spotify" /></a></p>
     </main>
 
     <footer>
@@ -35,11 +35,12 @@
     </footer>
 </div>
 
-<footer></footer>
-
 <script src="./scripts/main.js"></script>
 <script>
-    getRandomSet();
+   try { getRandomSet(); } 
+   catch (err) {
+        console.error(err);
+   }
 </script>
 
 </body>

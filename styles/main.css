@@ -1,16 +1,17 @@
-/* Normalize */
+/* Normalize
+********************************** */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
+
+/* General
+********************************** */
 html { scroll-behavior: smooth; }
-
-h1 { font-family: 'Staatliches', cursive; }
-p { font-family: 'Lato', sans-serif; }
-
-header, nav, main, footer { text-align: center;}
-
 
 body {
     background-color: #f4f5f6;
     background-image: url(../images/bg1.webp);
+    background-position: center;
+    background-attachment: fixed;
+
     height: 100vh;
     display: flex;
     flex-flow: column wrap;
@@ -20,6 +21,14 @@ body {
     transition-timing-function: cubic-bezier(.97,.15,.82,.75);
     transition-delay: 0.15s;
 }
+
+header, nav, main, footer { text-align: center;}
+
+/* Font
+********************************** */
+h1 { font-family: 'Staatliches', cursive; }
+p { font-family: 'Lato', sans-serif; }
+
 
 #displayBox {
     width: 60vw;
@@ -33,22 +42,24 @@ body {
     border: 5px solid rgba(255, 255, 255, 0.301)
 }
 
+/* Header
+********************************** */
 header > h1 {
     font-size: clamp(4rem, 6vh, 8rem);
 }
 
-main { margin-top: 2vh; }
-
-
-button {
-    font-size: 2rem;
+/* Nav / Main
+********************************** */
+nav > button {
+    font-size: 1.3rem;
     font-weight: 600;
-    background-color: transparent;
-    border: 0;    
-    padding: 0;
+    background-color: rgba(236, 244, 244, 0.344);
+    padding: 10px 40px;
+    border-radius: 14px;
+    border: 2px solid #f4f5f646
 }
 
-button, 
+nav > button, 
 main > p {
     cursor: pointer;
     transform: scale(1.0);
@@ -63,8 +74,20 @@ main > p a {
 button:hover,
 main > p:hover { 
     transform: scale(1.15);
+    filter: drop-shadow(0 0 2rem #ab31fc95);
 }
 
+/* Main
+********************************** */
+main { margin-top: 2vh; }
+.spotify { 
+    width: 20px;
+    position: relative;
+    top: 4px;
+ }
+
+/* Footer
+********************************** */
 footer {
     position: relative;
     top: 3.1vh;
@@ -72,7 +95,7 @@ footer {
 
 footer > p a:link,
 footer > p a:visited { 
-    color: rgba(179, 168, 168, 0.883);
+    color: rgba(103, 96, 96, 0.883);
     transition: 1.2s; 
 }
 
