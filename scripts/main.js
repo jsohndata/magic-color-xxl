@@ -13,26 +13,23 @@ function getRandomColor() {
 }
 
 
-
 function getRandomBackground() {
     const totalBg = 14;
     const randBg = `bg${Math.floor(Math.random() * totalBg)}.webp`;
 
-    return randBg
+    return randBg;
 }
-
-
 
 
 function getRandomSet() {
     const color= getRandomColor();
     const background = getRandomBackground();
 
-    document.getElementById("htmlBody").style.backgroundColor=color;
-    document.getElementById("htmlH1").innerHTML = color;
+    document.querySelector("body").style.backgroundColor=color;
+    document.querySelector("h1").innerHTML = color;
     document.title=`Magic Color XXL - ${color}`;
 
-    document.getElementById("htmlBody").style.backgroundImage=`url('../images/${background}')`;
+    document.querySelector("body").style.backgroundImage=`url('../images/${background}')`;
 
     console.log('Hex:',color,'BG:',background);
 }

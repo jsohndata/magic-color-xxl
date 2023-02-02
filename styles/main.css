@@ -30,7 +30,7 @@ h1 { font-family: 'Staatliches', cursive; }
 p { font-family: 'Lato', sans-serif; }
 
 
-#displayBox {
+#display-box {
     width: 60vw;
     max-width: 400px;
     background-color: rgba(244, 245, 246, 0.76);
