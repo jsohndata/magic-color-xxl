@@ -16,9 +16,9 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    transition-duration: 2s;
+    transition-duration: 1.3s;
     transition-timing-function: cubic-bezier(.97,.15,.82,.75);
-    transition-delay: 0.2s;
+    transition-delay: 0.15s;
 }
 
 #displayBox {
