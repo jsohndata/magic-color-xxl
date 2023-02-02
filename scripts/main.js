@@ -15,7 +15,7 @@ function getRandomColor() {
 
 
 function getRandomBackground() {
-    const totalBg = 9;
+    const totalBg = 14;
     const randBg = `bg${Math.floor(Math.random() * totalBg)}.webp`;
 
     return randBg
