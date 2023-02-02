@@ -23,8 +23,9 @@ body {
 
 #displayBox {
     width: 60vw;
+    max-width: 400px;
     background-color: rgba(244, 245, 246, 0.76);
-    padding: 40px;
+    padding: 30px;
     border-radius: 14px;
     position: relative;
     top: -20vh;
