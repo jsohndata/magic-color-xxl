@@ -30,7 +30,7 @@ function getRandomSet() {
 
     document.getElementById("htmlBody").style.backgroundColor=color;
     document.getElementById("htmlH1").innerHTML = color;
-    document.title=`${color} 🌈 Magic Color XXL`;
+    document.title=`Magic Color XXL - ${color}`;
 
     document.getElementById("htmlBody").style.backgroundImage=`url('../images/${background}')`;
 
