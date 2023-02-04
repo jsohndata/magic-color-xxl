@@ -90,12 +90,12 @@ main { margin-top: 2vh; }
 ********************************** */
 footer {
     position: relative;
-    top: 3.1vh;
+    top: 2.5vh;
 }
 
 footer > p a:link,
 footer > p a:visited { 
-    color: rgba(103, 96, 96, 0.883);
+    color: rgba(103, 96, 96, 0.306);
     transition: 1.2s; 
 }
 
