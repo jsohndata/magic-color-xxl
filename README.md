@@ -1,5 +1,5 @@
 # Magic Color XXL
-What started as a random hex color generator, a class project at [BocaCode](https://bocacode.com), turned into a late fun experimental site while jamming to music ([Spotify playlist](https://open.spotify.com/playlist/4RuO5yX4bziAqTYEc3EM4w?si=6ffa673a347848ad)).
+What started as a random hex color generator, a class project at [BocaCode](https://bocacode.com), turned into a fun experimental site while jamming to music ([Spotify playlist](https://open.spotify.com/playlist/4RuO5yX4bziAqTYEc3EM4w?si=6ffa673a347848ad)).
 
 ![Preview of Site](./images/readme.webp)
 
