@@ -2,10 +2,6 @@
 ********************************** */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
 
-/* Font
-********************************** */
-h1 { font-family: 'Staatliches', cursive; }
-p { font-family: 'Lato', sans-serif; }
 
 /* General
 ********************************** */
@@ -29,6 +25,13 @@ body {
 
 header, nav, main, footer { text-align: center;}
 
+
+/* Font
+********************************** */
+h1 { font-family: 'Staatliches', cursive; }
+p { font-family: 'Lato', sans-serif; }
+
+
 /* Container
 ********************************** */
 .container {
@@ -43,11 +46,11 @@ header, nav, main, footer { text-align: center;}
     border: 5px solid rgba(255, 255, 255, 0.301)
 }
 
+
 /* Header
 ********************************** */
-header > h1 {
-    font-size: clamp(4rem, 6vh, 8rem);
-}
+header > h1 { font-size: clamp(4rem, 6vh, 8rem); }
+
 
 /* Nav / Main
 ********************************** */
@@ -78,6 +81,7 @@ main > p:hover {
     filter: drop-shadow(0 0 2rem #ab31fc95);
 }
 
+
 /* Main
 ********************************** */
 main { margin-top: 2vh; }
@@ -86,6 +90,7 @@ main { margin-top: 2vh; }
     position: relative;
     top: 4px;
  }
+
 
 /* Footer
 ********************************** */
