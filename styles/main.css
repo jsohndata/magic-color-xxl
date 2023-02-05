@@ -2,6 +2,11 @@
 ********************************** */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: inherit; }
 
+/* Font
+********************************** */
+h1 { font-family: 'Staatliches', cursive; }
+p { font-family: 'Lato', sans-serif; }
+
 /* General
 ********************************** */
 html { scroll-behavior: smooth; }
@@ -24,13 +29,9 @@ body {
 
 header, nav, main, footer { text-align: center;}
 
-/* Font
+/* Container
 ********************************** */
-h1 { font-family: 'Staatliches', cursive; }
-p { font-family: 'Lato', sans-serif; }
-
-
-#display-box {
+.container {
     width: 60vw;
     max-width: 400px;
     background-color: rgba(244, 245, 246, 0.76);
@@ -103,6 +104,3 @@ footer > p a:hover {
     color: rgba(24, 244, 244, 0.883);
     filter: drop-shadow(0 0 7px #043843f8);
  }
-
-
-
