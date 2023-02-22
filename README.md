@@ -3,7 +3,7 @@ What started as a random hex color generator, a class project at [BocaCode](http
 
 ![Preview of Site](./images/readme.webp)
 
-* [👉 magic-color-xxl.web.app](https://magic-color-xxl.web.app/)
+* [👉 jsohndata.github.io/magic-color-xxl](https://jsohndata.github.io/magic-color-xxl/)
 * [👉 Youtbe](https://www.youtube.com/watch?v=fIWf74r5cnE)
 
 # Sources
