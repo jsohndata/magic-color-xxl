@@ -1,0 +1,6 @@
+{
+  "homepage": "https://jsohndata.github.io/magic-color-xxl",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
