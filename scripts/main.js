@@ -29,7 +29,7 @@ function getRandomSet() {
     document.querySelector("h1").innerHTML = color;
     document.title=`Magic Color XXL - ${color}`;
 
-    document.querySelector("body").style.backgroundImage=`url('../images/${background}')`;
+    document.querySelector("body").style.backgroundImage=`url('https://jsohndata.github.io/magic-color-xxl/images/${background}')`;
 
     console.log('Hex:',color,'BG:',background);
 }
