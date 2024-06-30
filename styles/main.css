@@ -109,21 +109,3 @@ footer > p a:hover {
     color: rgba(24, 244, 244, 0.883);
     filter: drop-shadow(0 0 7px #043843f8);
  }
-
-#mozarts-ghost {
-    position: fixed;
-    opacity: 1;
-    bottom: 0;
-    left: 10px;
-    padding: 10px;
-}
-
-#mozarts-ghost a:link,
-#mozarts-ghost a:visited {
-    color: rgb(164, 164, 235);
-    text-decoration: none;
-}
-
-#mozarts-ghost a:hover {
-    color: rgb(195, 0, 255);
-}
